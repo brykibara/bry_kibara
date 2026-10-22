@@ -1,0 +1,43 @@
+{
+"education": [
+{
+"level": "Elementary",
+"school": "Belance Elementary School",
+"year": "2019"
+},
+{
+"level": "Junior High School",
+"school": "Belance High School",
+"year": "2023"
+},
+{
+"level": "Senior High School",
+"school": "Belance High School",
+"year": "2025"
+},
+{
+"level": "College",
+"school": "Nueva Vizcaya State University",
+"year": "Currently Studying"
+}
+],
+"skills": [
+"Cooking",
+"Fast Learner",
+"Creative Thinking",
+"Mathematics",
+"Online Gaming"
+],
+"hobbies": [
+"🍳 Cooking",
+"🎮 Playing Online Games",
+"🎵 Listening to Music",
+"📍 Exploring New Places",
+"💡 Learning New Things"
+],
+"contact": {
+"phone": "09755858753",
+"email": "bryefelk@gmail.com",
+"facebook": "https://www.facebook.com/bryl.langpawen.xv"
+}
+}

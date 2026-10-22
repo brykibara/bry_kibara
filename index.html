@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bryefel Kibara | Personal Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <main class="container">
+
+    <!-- HEADER -->
+    <header class="hero">
+      <div class="avatar">
+        <img src="./profile.jpg.png" alt="My Profile Picture">
+      </div>
+
+      <div class="hero-info">
+        <p class="eyebrow">♡ MY Portfolio</p>
+        <h1>Bryefel Kibara</h1>
+        <p class="subtitle">BSINTE • Nueva Vizcaya, Philippines</p>
+
+        <div class="chips">
+          <span>✦ Future IT Professional</span>
+          <span>♡ Learning & growing</span>
+        </div>
+      </div>
+
+      <div class="hero-actions">
+        <button id="themeButton" class="pill-button" type="button">
+          ☾ Dark
+        </button>
+
+        <button id="printButton" class="pill-button" type="button">
+          ▣ Print / PDF
+        </button>
+      </div>
+    </header>
+
+    <!-- LIVE TIME, DATE, AND THEME -->
+    <section class="summary-grid" aria-label="Quick information">
+
+      <article class="summary-card">
+        <p class="card-label">◷ LIVE TIME</p>
+
+        <!-- JavaScript updates the time here -->
+        <h2 id="liveTime">Loading time...</h2>
+
+        <p class="muted" id="timeZone">
+          Philippines (PHT)
+        </p>
+      </article>
+
+      <article class="summary-card">
+        <p class="card-label">▦ DATE</p>
+
+        <!-- JavaScript updates the date here -->
+        <h2 id="liveDate">Loading date...</h2>
+
+        <p class="muted">
+          Today is a new opportunity ✨
+        </p>
+      </article>
+
+      <article class="summary-card theme-card">
+        <p class="card-label">♡ THEME</p>
+        <h2 id="themeName">Lavender Light</h2>
+
+        <button id="themeButton2" class="switch-button" type="button">
+          Switch theme
+        </button>
+      </article>
+
+    </section>
+
+    <!-- NAVIGATION -->
+    <nav class="nav-tabs" aria-label="Portfolio sections">
+      <a class="tab active" href="#about">♟ About Me</a>
+      <a class="tab" href="#education">◆ Education</a>
+      <a class="tab" href="#skills">✿ Skills</a>
+      <a class="tab" href="#contact">📱 Cntact</a>
+      <a class="tab" href="#hobbies">♡ Hobbies</a>
+    </nav>
+
+    <!-- PORTFOLIO CONTENT -->
+    <section class="content-grid">
+        <!-- CONTACT INFORMATION --><article class="panel contact-panel" id="contact">
+    <h2>✉ Contact Information</h2><div class="detail-list">
+    <p>
+        <span>📱 Contact Number</span>
+        <strong id="contactNumber">09755858753</strong>
+    </p>
+
+    <p>
+        <span>📧 Email Address</span>
+        <strong id="contactEmail">bryefelk@gmail.com</strong>
+    </p>
+
+    <p>
+        <span>📘 Facebook Account</span>
+        <strong>
+            <a id="facebookLink"
+               href="#"
+               target="_blank"
+               rel="noopener noreferrer">
+                https://www.facebook.com/bryl.langpawen.xv
+            </a>
+        </strong>
+    </p>
+</div>
+
+</article>
+
+    <!-- MY HOBBIES SECTION --><section class="content-grid" id="hobbies">
+    <article class="panel hobby-panel">
+        <h2>♡ My Hobbies</h2>    <div class="hobbies-list">
+        <div class="hobby-box">🍳 Cooking</div>
+        <div class="hobby-box">🎮 Playing Online Games</div>
+        <div class="hobby-box">🎵 Listening to Music</div>
+        <div class="hobby-box">📍 Exploring New Places</div>
+        <div class="hobby-box">💡 Learning New Things</div>
+    </div>
+</article>
+
+</section>
+
+
+      <!-- ABOUT ME -->
+      <article class="panel" id="about">
+        <h2>♟ About Me</h2>
+
+        <p id="aboutText">
+          Hello! I'm Bryefel Kibara from Nueva Vizcaya, Philippines.
+          I am an Information Technology student who enjoys learning
+          new things, exploring places, and discovering how technology
+          can help people. I want to graduate from college and build
+          a stable and fulfilling career.
+        </p>
+
+        <div class="detail-list">
+          <p>
+            <span>📍 Location</span>
+            <strong>Nueva Vizcaya, Philippines</strong>
+          </p>
+
+          <p>
+            <span>🎓 Course</span>
+            <strong>BS Information Technology</strong>
+          </p>
+
+          <p>
+            <span>💜 Favorite theme</span>
+            <strong>Light Lavender</strong>
+          </p>
+        </div>
+      </article>
+
+      <!-- EDUCATION -->
+      <article class="panel" id="education">
+        <h2>◆ Education</h2>
+        <div id="educationList" class="timeline"></div>
+        <article class="panel" id="education">
+    <h2>◆ Education</h2><div id="educationList">
+    <div class="education-box">
+        <h3>Elementary</h3>
+        <p>Belance Elementary School</p>
+        <small>2019</small>
+    </div>
+
+    <div class="education-box">
+        <h3>Junior High School</h3>
+        <p>Belance High School</p>
+        <small>2023</small>
+    </div>
+
+    <div class="education-box">
+        <h3>Senior High School</h3>
+        <p>Belance High School</p>
+        <small>2025</small>
+    </div>
+
+    <div class="education-box">
+        <h3>College</h3>
+        <p>Nueva Vizcaya State University</p>
+        <small>Currently Studying</small>
+    </div>
+
+     </article>
+
+      <!-- SKILLS -->
+      <article class="panel" id="skills">
+        <h2>✿ My Skills</h2>
+        <div id="skillsList" class="skills-list"></div>
+
+        <h3 class="mini-heading">Things I enjoy</h3>
+
+        <p class="interest-text">
+          🍳 Cooking &nbsp;
+          🎮 Online games &nbsp;
+          💡 Creative ideas &nbsp;
+          📚 Learning
+        </p>
+      </article>
+
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <p>Made with ♡ by Bryefel Kibara</p>
+
+      <p class="muted">
+        Personal Portfolio • <span id="year"></span>
+      </p>
+    </footer>
+
+  </main>
+
+  <!-- JAVASCRIPT -->
+  <script src="script.js"></script>
+
+</body>
+</html>
